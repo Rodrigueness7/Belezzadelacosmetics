@@ -2,9 +2,17 @@ import React from "react"
 
 
  function Home(){
+
+      function onload(){
+        console.log('carregado')
+      }
+
     return(
-       <section id="home">
-          <h1>Seja Bem vindo a Bellezzadella Cosmetics</h1>
+      
+       <section onLoad={onload} id="home">
+        <div>
+          <h1 className="title">Seja Bem vindo a Bellezzadela Cosmetics</h1>
+       </div> 
        </section>
     )
  }

@@ -18,19 +18,22 @@
 #home{
     display: flex;
     align-items: center;
-    height: 750px;
+    justify-content:flex-end;
+    height: 751px;
     width: 100%;
-    background: url('./assets/background.jpg');
+   background: url("../public/assets/background.jpg");
     background-size:cover ;
     box-sizing: border-box;
   
    
 }
- h1{
-    font-size: 30px;
-    max-width: 405px;
-    margin-bottom: 100px;
-    margin-left: 20vw;
+
+.title{
+    font-size: 40px;
+    max-width: 500px;
+    margin-right: 150px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 
 
 } 
@@ -43,4 +46,10 @@
 #locale{
     background-color: green;
     height: 900px;
+}
+
+.image{
+    width: 50%;
+    border: none;
+
 }
