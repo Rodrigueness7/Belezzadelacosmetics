@@ -5,24 +5,27 @@ function Header(){
     
     return(
       <div className="header">
-         <div >
-          <Link className="Link" to='/' onClick={(e) => {
+         <div> 
+          <i class="bi bi-house icon"></i>
+          < Link className="Link" to='/' onClick={(e) => {
              e.preventDefault();
              let home = document.getElementById('home');
              home.scrollIntoView({behavior: "smooth", block: "start"});
-          }}>Home</Link>
- 
+            }}>Início</Link>
+        
+          <i class="bi bi-file-person icon"></i>
           <Link className="Link" to="/" onClick={(e) => {
              e.preventDefault();
              let about = document.getElementById('about');
              about.scrollIntoView({behavior: 'smooth', block: 'start'});
-          }}>About</Link>
+          }}>Sobre</Link>
 
+          <i class="bi bi-geo-alt-fill icon"></i>
           <Link className="Link" to="/" onClick={(e) =>{
             e.preventDefault();
             let locale = document.getElementById('locale');
             locale.scrollIntoView({behavior: 'smooth', block: "start"})
-          }}>Locale</Link>
+          }}>Localização</Link>
           </div>
       </div>
     )
