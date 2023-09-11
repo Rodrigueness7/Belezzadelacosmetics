@@ -10,7 +10,7 @@
 } 
 
 .Link{
-    margin: 20px;
+    margin: 15px;
     text-decoration: none;
     color:white;
 }
@@ -36,11 +36,13 @@
 .icon-social{
     font-size: 32px;
     color:blueviolet;
-    margin: 10px;
+    margin-left: 10px;
+    position: relative;
+    left: 2%;
 }
 
 .logo{
-    width: 180px;
+    width: 500px;
 
 }
 
@@ -49,6 +51,11 @@
 }
 
 #about{
-    margin-top: 100px;
     height: 783px;
+    background-image: url('../public/assets/cilios.jpg');
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: 80%;
+    color: black;
 }
+
